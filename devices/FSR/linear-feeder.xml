@@ -6,21 +6,21 @@
  
   <regular>  
 	<reg name="meat-loaded-thresh" id="11">
-      <endpoint name="action" type="num" dir="out">
+      <endpoint name="meat-loaded-thresh" type="num" dir="out">
 		<position>0</position>
         <size>2</size>
       </endpoint>
     </reg>
 	
     <reg name="meat-dropped-thresh" id="12">
-      <endpoint name="action" type="num" dir="out">
+      <endpoint name="meat-dropped-thresh" type="num" dir="out">
 		<position>0</position>
         <size>2</size>
       </endpoint>
     </reg>
 	
     <reg name="motor-direction" id="13">
-      <endpoint name="action" type="num" dir="out">
+      <endpoint name="motor-direction" type="num" dir="out">
 		<position>0</position>
         <size>2</size>
       </endpoint>

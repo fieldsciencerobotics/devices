@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<devices>
+	<developer id="74" name="FSR">
+		<dev id="1" name="linear-feeder" label="Linear meat dropper"/>
+	</developer>
+</devices>

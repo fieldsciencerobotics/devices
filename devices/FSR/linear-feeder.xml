@@ -3,6 +3,16 @@
   <developer>FSR</developer>
   <product>linear-feeder</product>
   <pwrdownmode>false</pwrdownmode>
+  
+  <config>
+    <reg name="Meat thresh" id="18">
+      <param name="Meat thresh" type="num">
+        <position>0</position>
+        <size>2</size>
+        <default>200</default>
+      </param>
+    </reg>
+  </config>
  
   <regular>
     <reg name="Drop meat" id="11">

@@ -3,12 +3,13 @@
   <developer>FSR</developer>
   <product>linear-feeder</product>
   <pwrdownmode>false</pwrdownmode>
- 
-  <regular>  
+  
+  <config>
 	<reg name="meat-loaded-thresh" id="11">
       <endpoint name="meat-loaded-thresh" type="num" dir="out">
 		<position>0</position>
         <size>2</size>
+		<default>200</default>
       </endpoint>
     </reg>
 	
@@ -16,42 +17,75 @@
       <endpoint name="meat-dropped-thresh" type="num" dir="out">
 		<position>0</position>
         <size>2</size>
+		<default>100</default>
       </endpoint>
     </reg>
 	
-    <reg name="motor-direction" id="13">
+    <reg name="perch-vacant-thresh" id="13">
+      <endpoint name="perch-vacant-thresh" type="num" dir="out">
+		<position>0</position>
+        <size>2</size>
+		<default>2500</default>
+      </endpoint>
+    </reg>
+    <reg name="perch-occupied-thresh" id="14">
+      <endpoint name="perch-occupied-thresh" type="num" dir="out">
+		<position>0</position>
+        <size>2</size>
+		<default>2000</default>
+      </endpoint>
+    </reg>
+	<reg name="motor-direction" id="15">
       <endpoint name="motor-direction" type="num" dir="out">
 		<position>0</position>
         <size>2</size>
+		<default>0</default>
+		<verif>RANGE(0,1)</verif>
       </endpoint>
     </reg>
-    
-    <reg name="action" id="14">
+	<reg name="max-meat-pieces" id="16">
+      <endpoint name="max-meat-pieces" type="num" dir="out">
+		<position>0</position>
+        <size>2</size>
+		<default>12</default>
+      </endpoint>
+    </reg>
+  </config>
+ 
+  <regular>  
+    <reg name="action" id="17">
       <endpoint name="action" type="num" dir="out">
 		<position>0</position>
         <size>2</size>
       </endpoint>
     </reg>
 
-	<reg name="action-event" id="15">
+	<reg name="action-event" id="18">
       <endpoint name="action-event" type="num" dir="inp">
         <position>0</position>
         <size>2</size>
       </endpoint>
     </reg>
 	
-	<reg name="battery-voltage" id="16">
+	<reg name="battery-voltage" id="19">
       <endpoint name="cell-1" type="num" dir="inp">
         <position>0</position>
-        <size>4</size>
+        <size>2</size>
       </endpoint>
       <endpoint name="cell-2" type="num" dir="inp">
-        <position>4</position>
+        <position>2</position>
         <size>4</size>
       </endpoint>
 	  <endpoint name="cell-3" type="num" dir="inp">
-        <position>8</position>
-        <size>4</size>
+        <position>4</position>
+        <size>6</size>
+      </endpoint>
+    </reg>
+	
+	<reg name="meat-pieces-left" id="20">
+      <endpoint name="meat-pieces-left" type="num" dir="inp">
+        <position>0</position>
+        <size>2</size>
       </endpoint>
     </reg>
   </regular>  

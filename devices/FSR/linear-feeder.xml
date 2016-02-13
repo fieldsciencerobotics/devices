@@ -3,13 +3,12 @@
   <developer>FSR</developer>
   <product>linear-feeder</product>
   <pwrdownmode>false</pwrdownmode>
-  
-  <config>
+ 
+  <regular>
 	<reg name="meat-loaded-thresh" id="11">
       <endpoint name="meat-loaded-thresh" type="num" dir="out">
 		<position>0</position>
         <size>2</size>
-		<default>200</default>
       </endpoint>
     </reg>
 	
@@ -17,7 +16,6 @@
       <endpoint name="meat-dropped-thresh" type="num" dir="out">
 		<position>0</position>
         <size>2</size>
-		<default>100</default>
       </endpoint>
     </reg>
 	
@@ -25,34 +23,31 @@
       <endpoint name="perch-vacant-thresh" type="num" dir="out">
 		<position>0</position>
         <size>2</size>
-		<default>2500</default>
       </endpoint>
     </reg>
+	
     <reg name="perch-occupied-thresh" id="14">
       <endpoint name="perch-occupied-thresh" type="num" dir="out">
 		<position>0</position>
         <size>2</size>
-		<default>2000</default>
       </endpoint>
     </reg>
+	
 	<reg name="motor-direction" id="15">
       <endpoint name="motor-direction" type="num" dir="out">
 		<position>0</position>
         <size>2</size>
 		<default>0</default>
-		<verif>RANGE(0,1)</verif>
       </endpoint>
     </reg>
+	
 	<reg name="max-meat-pieces" id="16">
       <endpoint name="max-meat-pieces" type="num" dir="out">
 		<position>0</position>
         <size>2</size>
-		<default>12</default>
       </endpoint>
     </reg>
-  </config>
- 
-  <regular>  
+	
     <reg name="action" id="17">
       <endpoint name="action" type="num" dir="out">
 		<position>0</position>

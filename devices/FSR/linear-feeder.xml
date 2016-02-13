@@ -69,11 +69,11 @@
       </endpoint>
       <endpoint name="cell-2" type="num" dir="inp">
         <position>2</position>
-        <size>4</size>
+        <size>2</size>
       </endpoint>
 	  <endpoint name="cell-3" type="num" dir="inp">
         <position>4</position>
-        <size>6</size>
+        <size>2</size>
       </endpoint>
     </reg>
 	

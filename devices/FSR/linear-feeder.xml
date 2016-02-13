@@ -83,5 +83,12 @@
         <size>2</size>
       </endpoint>
     </reg>
+	
+	<reg name="perch-event" id="21">
+      <endpoint name="perch-event" type="num" dir="inp">
+        <position>0</position>
+        <size>2</size>
+      </endpoint>
+    </reg>
   </regular>  
 </device>

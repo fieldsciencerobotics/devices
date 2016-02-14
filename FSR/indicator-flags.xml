@@ -17,17 +17,6 @@
         <position>0</position>
         <size>2</size>
       </endpoint>
-    </reg>
-
-    <reg name="battery-voltage" id="13">
-      <endpoint name="cell-1" type="num" dir="inp">
-        <position>0</position>
-        <size>2</size>
-      </endpoint>
-      <endpoint name="cell-2" type="num" dir="inp">
-        <position>2</position>
-        <size>2</size>
-      </endpoint>
-    </reg>
+    </reg>    
   </regular>
 </device>

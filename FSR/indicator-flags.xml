@@ -3,23 +3,23 @@
   <developer>FSR</developer>
   <product>indicator-flags</product>
   <pwrdownmode>false</pwrdownmode>
-  
+
   <regular>
     <reg name="raise-flag" id="11">
       <endpoint name="raise-flag" type="num" dir="out">
-		<position>0</position>
+        <position>0</position>
         <size>2</size>
       </endpoint>
     </reg>
-	
-	<reg name="lower-flag" id="12">
+
+    <reg name="lower-flag" id="12">
       <endpoint name="lower-flag" type="num" dir="out">
-		<position>0</position>
+        <position>0</position>
         <size>2</size>
       </endpoint>
     </reg>
-	
-	<reg name="battery-voltage" id="13">
+
+    <reg name="battery-voltage" id="13">
       <endpoint name="cell-1" type="num" dir="inp">
         <position>0</position>
         <size>2</size>

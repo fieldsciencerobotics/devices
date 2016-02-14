@@ -2,5 +2,6 @@
 <devices>
 	<developer id="74" name="FSR">
 		<dev id="1" name="linear-feeder" label="Linear meat dropper"/>
+		<dev id="2" name="indicator-flags" label="Indicator flags"/>
 	</developer>
 </devices>

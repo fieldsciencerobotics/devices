@@ -18,7 +18,7 @@
         <size>2</size>
       </endpoint>
     </reg>
-  
+
     <reg name="meat-loaded-thresh" id="13">
       <endpoint name="meat-loaded-thresh" type="num" dir="out">
         <position>0</position>
@@ -74,9 +74,8 @@
         <size>2</size>
       </endpoint>
     </reg>
-	
 
-	<reg name="config" id="21">
+    <reg name="config" id="21">
       <endpoint name="meat-loaded-thresh" type="num" dir="inp">
         <position>0</position>
         <size>2</size>
@@ -89,28 +88,28 @@
         <position>4</position>
         <size>2</size>
       </endpoint>
-	  <endpoint name="perch-vacant-diff" type="num" dir="inp">
+      <endpoint name="perch-vacant-diff" type="num" dir="inp">
         <position>6</position>
         <size>2</size>
       </endpoint>
-	  <endpoint name="motor-direction" type="num" dir="inp">
+      <endpoint name="motor-direction" type="num" dir="inp">
         <position>8</position>
         <size>2</size>
       </endpoint>
-	  <endpoint name="max-meat-pieces" type="num" dir="inp">
+      <endpoint name="max-meat-pieces" type="num" dir="inp">
         <position>10</position>
         <size>2</size>
       </endpoint>
     </reg>
-    <reg name="get-config" id="21">
+    
+    <reg name="get-config" id="22">
       <endpoint name="get-config" type="num" dir="out">
         <position>0</position>
         <size>2</size>
       </endpoint>
     </reg>
 
-
-    <reg name="battery-voltage" id="22">
+    <reg name="battery-voltage" id="23">
       <endpoint name="cell-1" type="num" dir="inp">
         <position>0</position>
         <size>2</size>

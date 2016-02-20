@@ -4,7 +4,7 @@
   <product>linear-feeder</product>
   <pwrdownmode>false</pwrdownmode>
 
-  <regular>
+  <regular> 
     <reg name="action" id="11">
       <endpoint name="action" type="num" dir="out">
         <position>0</position>
@@ -74,7 +74,7 @@
         <size>2</size>
       </endpoint>
     </reg>
-<!-- 
+
     <reg name="config" id="21">
       <endpoint name="meat-loaded-thresh" type="num" dir="inp">
         <position>0</position>
@@ -100,7 +100,7 @@
         <position>10</position>
         <size>2</size>
       </endpoint>
-    </reg> -->
+    </reg>
     
     <reg name="get-config" id="22">
       <endpoint name="get-config" type="num" dir="out">

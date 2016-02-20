@@ -5,28 +5,28 @@
   <pwrdownmode>false</pwrdownmode>
 
   <regular>
-    <reg name="heart-beat" id="18">
+    <reg name="heart-beat" id="11">
       <endpoint name="heart-beat" type="num" dir="inp">
         <position>0</position>
         <size>2</size>
       </endpoint>
     </reg>
 
-    <reg name="ack-heart-beat" id="19">
+    <reg name="ack-heart-beat" id="12">
       <endpoint name="ack-heart-beat" type="num" dir="out">
         <position>0</position>
         <size>2</size>
       </endpoint>
     </reg>
   
-    <reg name="raise-flag" id="20">
+    <reg name="raise-flag" id="13">
       <endpoint name="raise-flag" type="num" dir="out">
         <position>0</position>
         <size>2</size>
       </endpoint>
     </reg>
 
-    <reg name="lower-flag" id="21">
+    <reg name="lower-flag" id="14">
       <endpoint name="lower-flag" type="num" dir="out">
         <position>0</position>
         <size>2</size>
